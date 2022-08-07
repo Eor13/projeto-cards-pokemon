@@ -1,0 +1,24 @@
+@media (max-width:620px){
+    main{
+        padding: 0 15px;
+        gap: 10px;
+    }
+    button{
+        width:20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        height: 480px;
+    }
+    img{
+        max-height: 230px;
+    }
+    .cardinfo h2{
+        max-width: 50%;
+        font-size: 18px;
+    }
+}
