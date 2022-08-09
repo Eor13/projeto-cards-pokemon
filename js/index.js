@@ -15,18 +15,18 @@ OBJETIVO 2 - quando cicar na seta de votar temos que mostrar o próximo cartão 
 
 
 //step 1 - dar um jeito de pegar o eemento HTML da seta avançar
-const btnAvançar = document.getElementById("avançar")
-const btnVoltar = document.getElementById("voltar")
+const btnAvançar = document.getElementById("botao-avancar")
+const btnVoltar = document.getElementById("botao-voltar")
 const cartoes = document.querySelectorAll(".cartao")
 let cartaoAtual = 0
 
 function esconderCartaoSelecionado(){
-    const cartaoSelecionado = document.querySelector(".select")
-    cartaoSelecionado.classList.remove("select")
+    const cartaoSelecionado = document.querySelector(".selecao")
+    cartaoSelecionado.classList.remove("selecao")
 }
 
 function mostrarCartao(indiceCartao){
-    cartoes[indiceCartao].classList.add("select")
+    cartoes[indiceCartao].classList.add("selecao")
 }
 
 // ----------------------OBJETIVO 1

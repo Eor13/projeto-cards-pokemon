@@ -4,25 +4,26 @@
         gap: 10px;
     }
     button{
-        width:20px;
-        height: 20px;
-        padding: 20px;
+        width:30px;
+        height: 30px;
+        padding: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .card{
-        height: 480px;
+
+    #cartoes{
+        height:450px;
     }
-    img{
+    .pokemon{
         max-height: 230px;
         padding: 20px;
     }
-    .cardinfo h2{
+    .informacao-cartao h2{
         max-width: 50%;
         font-size: 18px;
     }
-    .desc h3{
+    .descricao-cartao h3{
         font-family: 14px;
     }
 }

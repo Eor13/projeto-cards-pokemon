@@ -9,17 +9,18 @@ body{
     background-size: cover;
     text-align: center;
     margin: auto;
+    min-height: 100vh;
 }
 /*------Cabeçalho---------*/
 header{
     margin: auto;
-    padding: 50px;
+    padding: 35px;
     display: flex;  /* deixa a box felxivel*/
     flex-direction: row; /**/
     justify-content: center;/*alinha o item horizontalmente*/
     align-items: center;/*alinha o item verticalmente*/
     gap: 15px;/* espaço entre a bola e o texto*/
-    min-width: 100vh;
+    min-width: 100vw;
 }
 h1{
     color: beige;
@@ -34,16 +35,16 @@ main{
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 60px 0;
 }
 
 /*------ Card---------*/
-#card{
+#cartoes{
     width: 310px;
     height: 520px;
     justify-content: center;
     align-items: center;
     position: relative;
+    display: flex;
 
 }
 .cartao{
@@ -58,7 +59,7 @@ main{
     transition: opacity 0.3s ease-in-out;
 
 }
-.cartao.select{
+.cartao.selecao{
     opacity: 1;
     z-index: 1;
 }
@@ -81,7 +82,7 @@ main{
     background-size: cover;
     
 }
-.cardinfo{
+.informacao-cartao{
     background-color: rgba(179, 177, 185, 0.883);
     display: flex;
     align-items: center;
@@ -91,30 +92,30 @@ main{
     border-radius: 10px 10px;
 
 }
-.cardinfo h2{
+.informacao-cartao h2{
     color: white;
     font-size: 22px;
 }
-.cardinfo p{
+.informacao-cartao p{
     background-color: black;
     color: white;
     padding: 6px 10px;
     border-radius: 10px;
 }
-img{
+.pokemon{
     text-align: center;
     max-width: 100%;
     max-height: 100%;
     padding: 20px;
 }
 
-.desc{
+.descricao-cartao{
     background-color:rgba(255, 255, 255, 0.8);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     margin: 8px;
 }
-.desc h3{
+.descricao-cartao h3{
     background-color: rgb(0, 0, 0);
     text-align: left;
     border-top-right-radius: 10px;
@@ -124,7 +125,7 @@ img{
     color: white;
     
 }
-.desc p{
+.descricao-cartao p{
     font-size: 14px;
     padding: 12px;
     text-align: justify;
@@ -146,6 +147,6 @@ button{
 button:hover{
     background-color: rgba(0, 0, 0, 0.732);
 }
-#voltar{
+#seta{
     transform: rotate(180deg);
 }
