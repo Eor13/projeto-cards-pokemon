@@ -43,7 +43,7 @@ function mostrarCartao(indiceCartao){
         esconderCartaoSelecionado()
 
     })
-
+console.log(cartaoAtual ===cartoes.length-1)
 
 // ---------------------OBJETIVO 2
 
