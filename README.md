@@ -1,6 +1,6 @@
 # projeto-cards-pokemon
 
-<img src ="src/gif/tela.png" alt="gif da tela do projeto.">
+<img src ="src/imagns/preview-page.png" alt="gif da tela do projeto.">
 <a href="https://eor13.github.io/projeto-cards-pokemon/" target="_blank">Clique Aqui para ir direto para página</a>
 
 
